@@ -1,0 +1,19 @@
+{
+  "name": "megabox-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jinsuSang/megabox-clone.git",
+  "author": "jinsuSang <twtz0309@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
